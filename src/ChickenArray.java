@@ -169,7 +169,7 @@ public class ChickenArray {
 	 */
 	public void stringToFile(Graphics g, String chickenType, int x, int y) {
 		try {
-			g.drawImage(ImageIO.read(new File("files/" + chickenType + ".png")),
+			g.drawImage(ImageIO.read(new File("..//files/" + chickenType + ".png")),
 					x, y, 30, 30, null);
 		} catch (IOException e) {
 			System.out.println("Internal Error:" + e.getMessage());

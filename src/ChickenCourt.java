@@ -116,12 +116,12 @@ public class ChickenCourt extends JPanel {
 					
 					// Reads the current High Scores and outputs it
 					try {
-						highScores.inputHighScores("files/highscores.txt");
+						highScores.inputHighScores("..//files/highscores.txt");
 						highScores.placeHighScore(round - 1);
-						highScores.outputHighScores("files/highscores.txt");
+						highScores.outputHighScores("..//files/highscores.txt");
 					} catch (Exception e) {
 						highScores.placeHighScore(round - 1);
-						highScores.outputHighScores("files/highscores.txt");
+						highScores.outputHighScores("..//files/highscores.txt");
 					} 
 
 					// Changes the status display

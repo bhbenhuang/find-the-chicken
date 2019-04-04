@@ -130,14 +130,14 @@ public class Combo  extends JPanel {
 			for (Map.Entry<String, Integer> entry : found.entrySet()) {
 				if (entry.getValue().equals(0)) {
 				} else if (entry.getValue().equals(1)) {
-					g.drawImage(ImageIO.read(new File("files/" + entry.getKey() + ".png")),
+					g.drawImage(ImageIO.read(new File("..//files/" + entry.getKey() + ".png")),
 							0, position, 20, 20, null);
 					position += 20;
 				} else if (entry.getValue().equals(2)) {
-					g.drawImage(ImageIO.read(new File("files/" + entry.getKey() + ".png")),
+					g.drawImage(ImageIO.read(new File("..//files/" + entry.getKey() + ".png")),
 							0, position, 20, 20, null);
 					position += 20;
-					g.drawImage(ImageIO.read(new File("files/" + entry.getKey() + ".png")),
+					g.drawImage(ImageIO.read(new File("..//files/" + entry.getKey() + ".png")),
 							0, position, 20, 20, null);
 					position += 20;
 				}

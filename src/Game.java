@@ -39,7 +39,7 @@ public class Game implements Runnable {
 		reset.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					highScoresObject.inputHighScores("files/highscores.txt");
+					highScoresObject.inputHighScores("..//files/highscores.txt");
 				} catch (IOException | HighScores.FormatException e1) {
 					System.out.println("Internal Error:" + e1.getMessage());
 				}

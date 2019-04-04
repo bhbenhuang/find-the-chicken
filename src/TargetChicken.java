@@ -90,7 +90,7 @@ public class TargetChicken extends JPanel {
 	 */
 	public void draw(Graphics g) {
 		try {
-			g.drawImage(ImageIO.read(new File("files/" + getTarget() + ".png")),
+			g.drawImage(ImageIO.read(new File("..//files/" + getTarget() + ".png")),
 					0, 0, 30, 30, null);
 		} catch (IOException e) {
 			System.out.println("Internal Error:" + e.getMessage());
