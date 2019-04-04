@@ -1,4 +1,4 @@
-# FIND THE CHICKEN :mag: :chick:
+# FIND THE CHICKEN :mag: :baby_chick:
 Chicken is a simple meat. FIND THE CHICKEN is a simple game.
 
 There are five chicken: little chicks, nuggets, roosters, chicken wings, and my roomate (who's the most chicken of the five chicken). Click the specified chicken before time runs out!
